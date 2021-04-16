@@ -7,6 +7,8 @@
 
 html {
   box-sizing: content-box;
+  margin: 0 auto;
+  width: 100vw;
 }
 
 *,
@@ -36,11 +38,14 @@ html {
   height: 812px;
   width: 375px;
   border: solid 2px red;
-    
-    
-  
+  text-align: center;
+  margin: 0 auto;
+
   &__tittle {
-    
+    margin: 0;
+    position: relative;
+    top: 87px;  
+    left: 50px;
     font-size: 55px;
     color:#FFFFFF;
     height: 48px;
@@ -56,7 +61,11 @@ html {
     width: 88px;
     border: solid 2px;
     padding: 114px 96px 68px 96px;
-    
+    background-image: url(/src/assets/img/water-glass.svg);
+    position: relative;
+    top: 203px;  
+    left: 48px;
+    margin: 0;
   }
   &__addbutton {
     
@@ -68,7 +77,9 @@ html {
     height: 25px;
     width: 151px;
     padding: 11px 32px;
-     
+    position: relative;
+    top: 219px;
+   
     
     
   }
@@ -81,6 +92,8 @@ html {
     background: none;
     border: none;
     padding: 0;
+    position: relative;
+    top: 232px;
     
   }
 
