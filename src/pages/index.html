@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WTF: Webpack starter kit</title>
-    <meta name="description" content="Your project description" />
+    <title>hydrapp</title>
+    <meta name="description" content="Aplikacja służąca do zliczania ilości szklanek wypitej w ciągu dnia wody" />
     <!-- Title -->
-    <meta property="og:title" content="" />
+    <meta property="og:title" content="hydrapp" />
     <!-- OPTIONAL description. 2-4 sentences. -->
     <meta property="og:description" content="" />
     <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
@@ -20,7 +20,7 @@
     <!-- uncomment the line below to enable PWA  -->
     <link rel="manifest" href="manifest.json" />
 
-    <link
+    <!-- <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="pwa/apple-icon-180.png"
@@ -142,12 +142,18 @@
       rel="apple-touch-startup-image"
       href="pwa/apple-splash-1136-640.png"
       media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
+    /> -->
   </head>
-  <body>
-    <div class="hello">
+  <body class="hydrapp">
+    
+    <h1 class="hydrapp__tittle">hydrapp</h1>
+    <img src="/src/assets/img/water-glass.svg" alt="Glass with water.">
+    <p class="hydrapp__counter hydrapp__counter--js">0</p>
+    <button class="hydrapp__addbutton" aria-label="dodaj szklankę">dodaj szklankę</button>
+    <button class="hydrapp__removebutton" aria-label="usuń szklankę">usuń szklankę</button>
+    <!-- <div class="hello">
       <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
-    </div>
+      <span class="hello__circles"></span> 
+    </div>-->
   </body>
 </html>
