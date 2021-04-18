@@ -9,7 +9,7 @@ registerSW();
 
 console.log("HELLO 🚀");
 
-const counter = document.querySelector(".hydrapp__counter");
+const counter = document.querySelector(".hydrapp__counter--js");
 const addButton = document.querySelector(".hydrapp__addbutton--js");
 
 const removeButton = document.querySelector(".hydrapp__removebutton--js");
@@ -26,7 +26,7 @@ if (localStorageValue) {
 }
 counter.innerHTML = localStorage.getItem(key);
 function addGlass(i) {
-  n++;
+  n=parseInt(n)+1;
   counter.innerHTML = n;
   localStorage.setItem(key, n);
 }
