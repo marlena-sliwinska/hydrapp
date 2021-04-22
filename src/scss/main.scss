@@ -1,15 +1,15 @@
 @import "~normalize.css";
 
-// @import "_variables";
-// @import "modules/hello.scss";
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 html {
   box-sizing: border-box;
+  // display: flex;
+  
+  // align-items: center;
   margin: 0 auto;
   width: 375px;
-  
+  // height: 100vh;
 }
 
 *,
@@ -18,47 +18,35 @@ html {
   box-sizing: inherit;
 }
 
-// body {
-//   background: $wtf;
-//   color: #fff;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   min-height: 100vh;
-// }
+body {
+  display: flex;
+  
+  align-items: center;
+  height: 100vh;
+}
 
-// html {
-//  height: 812px;
-//  width: 375px;
-//  border: solid 2px red;
-
-// }
 .hydrapp {
-  border: solid 2px;
   background-color: #3767ad;
   font-family: "Roboto", sans-serif;
   height: 812px;
-  // width: 375px;
-  // text-align: center;
-  // align-items: center;
+  width: 375px;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
-  // height: 812px;
+
+  align-items: center;
 
   &__tittle {
-    // position: relative;
+   
     margin-top: 87px;
     margin-bottom: 68px;
-    // left: 50px;
+
     font-size: 55px;
     color: #ffffff;
     height: 70px;
     width: 275px;
     padding-bottom: 10px;
     text-align: center;
-    border: solid 2px;
   }
   &__counter {
     font-size: 112px;
@@ -68,16 +56,11 @@ html {
     padding-top: 114px;
     margin-top: 0px;
     margin-bottom: 0px;
-    //padding: 114px 96px 68px 96px;
+
     text-align: center;
     background: url("../../src/assets/img/water-glass.svg");
     background-repeat: no-repeat;
     background-position: center;
-    // position: relative;
-    // top: 203px;
-    // left: 48px;
-    // margin: 0;
-    border: solid 2px;
   }
   &__addbutton {
     font-size: 18px;
@@ -89,8 +72,6 @@ html {
     width: 216px;
     padding: 11px 32px;
     margin-top: 48px;
-    // position: relative;
-    // top: 219px;
   }
   &__removebutton {
     margin-top: 37px;
@@ -101,7 +82,5 @@ html {
     background: none;
     border: none;
     padding: 0;
-    // position: relative;
-    // top: 232px;
   }
 }
