@@ -5,12 +5,6 @@
 html {
   box-sizing: border-box;
   background-color: #3767ad;
-  // display: flex;
-
-  // align-items: center;
-  // margin: 0 auto;
-  // width: 375px;
-  // height: 100vh;
 }
 
 *,
@@ -24,15 +18,15 @@ html {
   display: flex;
   flex-flow: column;
   align-items: center;
-  text-align: center;
-
   font-family: "Roboto", sans-serif;
+  justify-content: center;
 
   &__tittle {
     margin: 0;
     margin-top: 24px;
     font-size: 55px;
     color: #ffffff;
+    font-weight: 400;
   }
   &__counter {
     margin-top: 48px;
