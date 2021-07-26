@@ -1,20 +1,13 @@
 ![cover](https://marlena-sliwinska.github.io/hydrapp//ikona.png)
 
-### The application was done during learning Frontend with WTF course..
+##HYDRAPP
+
+# Aplikacja zlicza ilości wypitych szklanek wody.
+Można ją zainstalować zarówno na komputerze jak i na telefonie.
+
+Aplikacja korzysta z lacal storage. Każdego dnia ilość szklanek automatycznie się zeruje.
+
+Została zbudowana podczas nauki Frontendu z kursu WTF, przy pomocy Webpack.
 
 
-
-
-
-## How to run it?
-
-`npm run start` - firstly, install download and install Node.js and npm
-
-## Available scripts
-
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
 
