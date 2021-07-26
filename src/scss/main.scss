@@ -4,13 +4,13 @@
 
 html {
   box-sizing: border-box;
+  background-color: #3767ad;
   // display: flex;
-  
+
   // align-items: center;
-  margin: 0 auto;
-  width: 375px;
+  // margin: 0 auto;
+  // width: 375px;
   // height: 100vh;
- 
 }
 
 *,
@@ -19,51 +19,38 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  display: flex;
-  
-  align-items: center;
-  height: 100vh;
-}
-
 .hydrapp {
-  background-color: #3767ad;
-  font-family: "Roboto", sans-serif;
-height: 812px;
-  width: 375px;
-  justify-content: center;
+  min-height: 100vw;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
 
-  align-content: flex-start;
+  font-family: "Roboto", sans-serif;
 
   &__tittle {
-   
-    margin-top: 87px;
-    margin-bottom: 68px;
-
+    margin: 0;
+    margin-top: 24px;
     font-size: 55px;
     color: #ffffff;
-    height: 70px;
-    width: 275px;
-    padding-bottom: 10px;
-    text-align: center;
   }
   &__counter {
+    margin-top: 48px;
     font-size: 112px;
     color: #000000;
-    height: 280px;
-    width: 280px;
-    padding-top: 114px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
-    text-align: center;
+    min-height: 280px;
+    min-width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url("../../src/assets/img/water-glass.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    margin-bottom: 48px;
+    padding-top: 72px;
   }
   &__addbutton {
+    margin: 0;
     font-size: 18px;
     color: #000000;
     background-color: #ffffff;
@@ -72,16 +59,14 @@ height: 812px;
     height: 47px;
     width: 216px;
     padding: 11px 32px;
-    margin-top: 48px;
+    margin-bottom: 25px;
   }
   &__removebutton {
-    margin-top: 37px;
     font-size: 14px;
     color: #f5e5e7;
-    height: 23px;
-    width: 184px;
+    padding: 12px;
+
     background: none;
     border: none;
-    padding: 0;
   }
 }
