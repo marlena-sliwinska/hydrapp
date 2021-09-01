@@ -1,6 +1,6 @@
 ![cover](https://marlena-sliwinska.github.io/hydrapp//ikona.png)
 
-##HYDRAPP
+# HYDRAPP
 
 # Aplikacja zlicza ilości wypitych szklanek wody.
 Można ją zainstalować zarówno na komputerze jak i na telefonie.
