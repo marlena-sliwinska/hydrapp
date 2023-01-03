@@ -3,7 +3,7 @@
   "name": "BEST Online",
   "icons": [
     {
-      "src": "/best-online-icon-192x192",
+      "src": "/best-online-icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
