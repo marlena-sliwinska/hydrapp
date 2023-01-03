@@ -1,20 +1,24 @@
 {
-  "short_name": "BEST Online",
-  "name": "BEST Online",
+  "name": "HYDRAPP",
+  "short_name": "HYDRAPP",
+  "theme_color": "#3767AD",
+  "background_color": "#3767AD",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/hydrapp/",
+  "start_url": "/hydrapp/",
   "icons": [
     {
-      "src": "pwa/best-online-icon-192x192.png",
+      "src": "pwa/best-online-icon-192x192",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable any"
     },
     {
       "src": "pwa/best-online-icon-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable any"
     }
-  ],
-  "start_url": "/?utm_source=pwa",
-  "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+  ]
 }
