@@ -14,7 +14,7 @@
     "Webpack",
     "boilerplate"
   ],
-  "author": "Maciek Korsan",
+  "author": "Marlena Śliwińska",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.1",
